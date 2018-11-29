@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../wp-admin/includes/class-wp-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../wp-admin/includes/class-wp-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5077605">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3260">
+                  <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+                  <folding>
+                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../wp-config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="441">
+                  <caret line="79" column="24" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="40" column="89" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/contact-form-7/admin/includes/class-contact-forms-list-table.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/custom-list-table-example/list-table-example.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="263">
+                  <caret line="212" column="10" lean-forward="true" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="WordPress Main Plugin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$cf7_push_bullet_db_version</find>
+      <find>display</find>
+      <find>table</find>
+      <find>sin</find>
+      <find>column_default</find>
+      <find>__</find>
+      <find>paginat</find>
+      <find>pagui</find>
+      <find>_column_headers</find>
+      <find>display_rows_or_placeholder()</find>
+      <find>function display_rows_or_placeholder(</find>
+      <find>exit</find>
+      <find>function get_columns</find>
+      <find>prepare</find>
+      <find>render_screen_reader_content</find>
+      <find>var_</find>
+      <find>var</find>
+      <find>sort</find>
+      <find>sent onDate</find>
+      <find>success</find>
+      <find>result</find>
+      <find>get_columns</find>
+      <find>prepare_items</find>
+      <find>per_page</find>
+      <find>_table_data</find>
+      <find>column_title</find>
+      <find>title</find>
+      <find>push_title</find>
+      <find>ID</find>
+      <find>HISTORY</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration-activator.php" />
+        <option value="$PROJECT_DIR$/cf7-pushbullet/admin/partials/cf7-pushbullet-admin-display.php" />
+        <option value="$PROJECT_DIR$/cf7-pushbullet/includes/class-cf7-pushbullet.php" />
+        <option value="$PROJECT_DIR$/cf7-pushbullet/admin/class-cf7-pushbullet-admin.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" />
+        <option value="$PROJECT_DIR$/contact-form-sms-integration/template/cf7-conf-header.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/cf7-push-bullet-admin-display.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/class-table-listing.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" />
+        <option value="$PROJECT_DIR$/../../wp-admin/includes/class-wp-list-table.php" />
+        <option value="$PROJECT_DIR$/../../wp-config.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1345" />
+    <option name="width" value="2104" />
+    <option name="height" value="1400" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cf7-push-bullet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cf7-push-bullet" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cf7-push-bullet" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cf7-push-bullet" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="" />
+      <created>1543392127256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543392127256</updated>
+      <workItem from="1543392129003" duration="25697000" />
+      <workItem from="1543511520435" duration="27000" />
+      <workItem from="1543511566199" duration="5173000" />
+      <workItem from="1543517379445" duration="771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31668000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2766" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1993007" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32953367" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16580844" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Nativescript Palette" order="3" weight="0.3295711" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295711" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>H:\Devilbox\data\www\cf7pushbullet\wordpress.git</wordpressPath>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration-i18n.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration-loader.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/index.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/admin/css/cf7-pushbullet-integration-admin.css" />
+    <entry file="file://$PROJECT_DIR$/plugins.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/admin/js/cf7-pushbullet-integration-admin.js" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/admin/index.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration-deactivator.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/admin/partials/cf7-pushbullet-integration-admin-display.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/includes/class-cf7-pushbullet-integration-activator.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/cf7-pushbullet-integration.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet-integration/admin/class-cf7-pushbullet-integration-admin.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/admin/partials/cf7-pushbullet-admin-display.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/public/class-cf7-pushbullet-public.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/index.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/cf7-pushbullet.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/includes/class-cf7-pushbullet.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/includes/class-cf7-pushbullet-i18n.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-pushbullet/admin/class-cf7-pushbullet-admin.php" />
+    <entry file="file://$PROJECT_DIR$/notification/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="148" column="3" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bulletXXX/cf7-push-bullet.php" />
+    <entry file="file://$PROJECT_DIR$/contact-form-sms-integration/admin/class-contact-form-integration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bulletXXX/admin/class-cf7-push-bullet-admin.php" />
+    <entry file="file://$PROJECT_DIR$/../../wp-admin/includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1575" column="22" selection-start-line="1575" selection-start-column="9" selection-end-line="1575" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-form-sms-integration/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-form-sms-integration/template/cf7-conf-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-cf7-db/includes/vsz-cf7-db-function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6397">
+          <caret line="102" column="40" lean-forward="true" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-cf7-db/advanced-cf7-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1239" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="769" column="9" selection-start-line="769" selection-start-column="9" selection-end-line="769" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/class-table-listing.php" />
+    <entry file="file://$PROJECT_DIR$/contact-form-sms-integration/admin/class-admin-init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#8#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/cf7-push-bullet-admin-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-start-column="2" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-admin/includes/screen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2540">
+          <caret line="144" column="7" lean-forward="true" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bulletXXX/includes/class-cf7-push-bullet-activator.php" />
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="89" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-form-7/admin/includes/class-contact-forms-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-list-table-example/list-table-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="212" column="10" lean-forward="true" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3260">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="2299" column="9" selection-start-line="2299" selection-start-column="9" selection-end-line="2299" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-admin/includes/class-wp-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="1290" column="6" selection-start-line="1290" selection-start-column="6" selection-end-line="1290" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
