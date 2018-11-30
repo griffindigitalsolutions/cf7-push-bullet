@@ -12,6 +12,18 @@ $menus = array(
     'about' => __('About', 'cf7-push-bullet'));
 $link = menu_page_url($this->page_slug, false);
 $default_tab = 'history'; // what is the default menu
+
+$tab = $this::get_sanitized_get('tab');
+$action = $this::get_sanitized_get('action');
+
+// if we have an action, don't show all the tabs etc.
+if ($action) {
+    if ($action == 'view') {
+        require_once $this::get_admin_path() . '/partials/view-item.php';
+        return;
+    }
+}
+
 // TODO: move this to plugin variable (plugin global setting)
 foreach ($menus as $slug => $label) {
     $class = 'nav-tab'; // will get overwritten if active
@@ -28,15 +40,14 @@ foreach ($menus as $slug => $label) {
 
 ?>
 
-    <div class="wrap">
-        <h2 class="nav-tab-wrapper"><?php echo $menu; ?></h2>
-        <?php
-            $tab = $this::get_sanitized_get('tab');
-            if ($tab) {
-                $this->include_partial($tab);
-            } else {
-                // load default view
-                $this->include_partial($default_tab);
-            }
-        ?>
-    </div>
+<div class="wrap">
+    <h2 class="nav-tab-wrapper"><?php echo $menu; ?></h2>
+    <?php
+    if ($tab) {
+        $this->include_partial($tab);
+    } else {
+        // load default view
+        $this->include_partial($default_tab);
+    }
+    ?>
+</div>

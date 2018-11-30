@@ -22,18 +22,22 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
      * @param $item
      * @return string
      */
-    function column_push_title($item){
+    function column_push_title($item)
+    {
         //Build row actions
         $actions = array(
-            'view'      => sprintf('<a href="?page=%s&action=%s&movie=%s">View</a>',$_REQUEST['page'],'edit',$item['id']),
-            'delete'    => sprintf('<a href="?page=%s&action=%s&movie=%s">Delete</a>',$_REQUEST['page'],'delete',$item['id']),
+            'view' => sprintf('<a href="?page=%s&action=%s&item=%s">View</a>', $_REQUEST['page'], 'view', $item['id']),
+            'delete' => sprintf('<a href="?page=%s&action=%s&item=%s">Delete</a>', $_REQUEST['page'], 'delete', $item['id']),
         );
 
         //Return the title contents
-        return sprintf('%1$s <span style="color:silver">(id:%2$s)</span>%3$s',
-            /*$1%s*/ $item['push_title'],
-            /*$2%s*/ $item['id'],
-            /*$3%s*/ $this->row_actions($actions)
+        return sprintf('%1$s <span style="color: silver">(id:%2$s)</span>%3$s',
+            /*$1%s*/
+            $item['push_title'],
+            /*$2%s*/
+            $item['id'],
+            /*$3%s*/
+            $this->row_actions($actions)
         );
     }
 
@@ -204,7 +208,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
             case 'push_type':
             case 'push_body':
             case 'date':
-                return $item[$column_name];
+                return date_i18n(get_option('date_format'), wp_exif_date2ts($item[$column_name]));
             case 'success':
                 return $item[$column_name] ? 'OK' : '<span style="color: #a00;">Push Failed</span>';
             default:

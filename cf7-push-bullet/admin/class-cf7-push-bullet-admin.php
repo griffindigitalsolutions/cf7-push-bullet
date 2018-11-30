@@ -177,7 +177,7 @@ class Cf7_Push_Bullet_Admin
      *
      * @since 1.0.0
      */
-    public static function get_root_path()
+    public static function get_admin_path()
     {
         return plugin_dir_path(__FILE__);
     }
@@ -189,6 +189,6 @@ class Cf7_Push_Bullet_Admin
      */
     public static function include_partial($partial)
     {
-        include(self::get_root_path() . '/partials/tab-' . $partial . '.php');
+        include(self::get_admin_path() . '/partials/tab-' . $partial . '.php');
     }
 }
