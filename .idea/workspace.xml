@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="Bulk delete works.&#10;Single delete works.">
+    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="238" column="59" selection-start-line="238" selection-start-column="59" selection-end-line="238" selection-end-column="59" />
+            <state relative-caret-position="721">
+              <caret line="291" column="5" lean-forward="true" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -45,31 +41,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-history.php">
+        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/cf7-push-bullet-admin-display.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="305">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="21" />
               <folding>
-                <element signature="e#6#84#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="e#7#185#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+            <state relative-caret-position="-786">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -85,8 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add_cf7_submenu</find>
-      <find>save_form</find>
       <find>Cf7_Push_Bullet_Admin</find>
       <find>new Cf7_Push_Bullet_Admin</find>
       <find>cf7_push_bullet_db_version</find>
@@ -113,8 +110,10 @@
       <find>invalid</find>
       <find>api-key</find>
       <find>process_bulk_action</find>
-      <find>implode</find>
       <find>make_request</find>
+      <find>implode</find>
+      <find>wpdb</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,9 +136,7 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-api.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/public/class-cf7-push-bullet-public.php" />
-        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" />
-        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-loader.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" />
@@ -150,12 +147,14 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-api.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1712" />
-    <option name="width" value="1737" />
+    <option name="x" value="1710" />
+    <option name="width" value="1738" />
     <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -246,7 +245,7 @@
       <workItem from="1543511566199" duration="5173000" />
       <workItem from="1543517379445" duration="1614000" />
       <workItem from="1543567403240" duration="15444000" />
-      <workItem from="1543821702074" duration="25288000" />
+      <workItem from="1543821702074" duration="26856000" />
     </task>
     <task id="LOCAL-00001" summary="You can now view submissions in list and in detail view.">
       <created>1543579116984</created>
@@ -262,14 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543843928674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ready to add instructions and start detailed testing">
+      <created>1543859068338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543859068338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73243000" />
+    <option name="totallyTimeSpent" value="74811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1370" y="0" width="1389" height="1118" extended-state="0" />
+    <frame x="1368" y="0" width="1390" height="1118" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24586466" />
@@ -302,7 +308,8 @@
     <MESSAGE value="You can now view submissions in list and in detail view." />
     <MESSAGE value="API Key is saved and test request is made.&#10;Lots of other changes" />
     <MESSAGE value="Bulk delete works.&#10;Single delete works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bulk delete works.&#10;Single delete works." />
+    <MESSAGE value="Ready to add instructions and start detailed testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready to add instructions and start detailed testing" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>H:\Devilbox\data\www\cf7pushbullet\wordpress.git</wordpressPath>
@@ -511,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#185#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -566,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../wp-admin/includes/class-wp-list-table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -602,17 +589,6 @@
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#6#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="238" column="59" selection-start-line="238" selection-start-column="59" selection-end-line="238" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,8 +633,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+        <state relative-caret-position="-786">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#7#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="291" column="5" lean-forward="true" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
