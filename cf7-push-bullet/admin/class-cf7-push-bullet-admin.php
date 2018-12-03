@@ -59,19 +59,42 @@ class Cf7_Push_Bullet_Admin
      */
     public function __construct($plugin_name, $version)
     {
-
-        $this->plugin_name = $plugin_name;
-        $this->version = $version;
-
         $this->plugin_name = $plugin_name;
         $this->version = $version;
 
         // add menu hook
-        add_filter('wpcf7_editor_panels', array($this, 'add_cf7_panel'), 99);
-        // add after save hook
-//        add_action( 'wpcf7_after_save', array( &$this, 'save_form' ) );
+//        add_filter('wpcf7_editor_panels', array($this, 'add_cf7_panel'), 99);
         // add submenu to CF7
         add_action('admin_menu', array($this, 'add_cf7_submenu'));
+        // add options to options table
+        add_action('admin_init', array($this, 'register_settings'));
+
+        // load required classes
+        $this->load_classes();
+    }
+
+    /**
+     * Register settings used by this plugin, in the admin
+     *
+     * @since    1.0.0
+     */
+    public function load_classes()
+    {
+        require_once(CF7_PUSH_BULLET_PLUGIN_DIR . '/admin/includes/class-cf7-push-bullet-options.php');
+    }
+
+    /**
+     * Register settings used by this plugin
+     *
+     * @since    1.0.0
+     */
+    public function register_settings()
+    {
+        register_setting('cf7-push-bullet-settings', 'api-key', array('sanitize_callback' => array('Cf7_Push_Bullet_Options', 'pre_save')));
+    }
+
+    public function test()
+    {
     }
 
     /**
@@ -131,7 +154,7 @@ class Cf7_Push_Bullet_Admin
     public function add_cf7_panel($panels)
     {
         $panels['cf7-push-bullet-panel'] = array(
-            'title' => __('Push Bullet', 'cf7-push-bullet'),
+            'title' => __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
             'callback' => array($this, 'add_panel')
         );
         return $panels;
@@ -146,8 +169,8 @@ class Cf7_Push_Bullet_Admin
     public function add_cf7_submenu()
     {
         add_submenu_page('wpcf7',
-            __('Push Bullet', 'cf7-push-bullet'),
-            __('Push Bullet', 'cf7-push-bullet'), 'manage_options',
+            __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
+            __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN), 'manage_options',
             $this->page_slug, array($this, 'admin_page'));
     }
 
@@ -189,6 +212,10 @@ class Cf7_Push_Bullet_Admin
      */
     public static function include_partial($partial)
     {
+        // make sure the partial is one of the list, to prevent calling other files (just in case)
+        if (!in_array($partial, ['about', 'history', 'settings'])) {
+            return;
+        }
         include(self::get_admin_path() . '/partials/tab-' . $partial . '.php');
     }
 }

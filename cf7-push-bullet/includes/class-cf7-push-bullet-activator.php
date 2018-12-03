@@ -55,13 +55,14 @@ class Cf7_Push_Bullet_Activator
 
         $charset_collate = $wpdb->get_charset_collate();
         $sql = "CREATE TABLE $table_name (
-                    id mediumint(11) NOT NULL AUTO_INCREMENT,                                        
+                    id mediumint(11) NOT NULL AUTO_INCREMENT,
+                    form_id int(11) NOT NULL,
                     push_title tinytext NOT NULL,
                     push_type tinytext NOT NULL,
                     push_body text NOT NULL,
-                    result text DEFAULT '' NOT NULL,
+                    push_reply text DEFAULT '' NOT NULL,
                     success bool DEFAULT '' NOT NULL,
-                    date datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
+                    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
                     PRIMARY KEY (id)
                 ) $charset_collate;";
         require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -105,7 +106,7 @@ class Cf7_Push_Bullet_Activator
                                     asdads: XX
                                     emai: asdadafas@asdasd.com
                                     phone: 9484987328782374',
-                    'result' => '{
+                    'push_reply' => '{
                                     "active": true,
                                     "iden": "ujDsTpyFe1YsjAlZ7UNk28",
                                     "created": 1543417345.573496,
@@ -136,7 +137,7 @@ class Cf7_Push_Bullet_Activator
                                     asdads: XX
                                     emai: asdadafas@asdasd.com
                                     phone: 9484987328782374',
-                'result' => '{
+                'push_reply' => '{
                                     "active": true,
                                     "iden": "ujDsTpyFe1YsjAlZ7UNk28",
                                     "created": 1543417345.573496,
@@ -167,7 +168,7 @@ class Cf7_Push_Bullet_Activator
                                     asdads: XX
                                     emai: asdadafas@asdasd.com
                                     phone: 9484987328782374',
-                'result' => '{
+                'push_reply' => '{
                                     "active": true,
                                     "iden": "ujDsTpyFe1YsjAlZ7UNk28",
                                     "created": 1543417345.573496,

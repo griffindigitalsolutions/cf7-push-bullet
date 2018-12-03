@@ -30,7 +30,10 @@ class Cf7_Push_Bullet_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+var_dump('DO THE DEACTIVATION');
+// do unregister_setting
+        // and remove db etc.
+exit;
 	}
 
 }

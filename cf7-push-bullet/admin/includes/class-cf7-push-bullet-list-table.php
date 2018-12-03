@@ -124,7 +124,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
             'push_title' => 'Title',
             'push_type' => 'Push Type',
             'success' => 'Result',
-            'date' => 'Date'
+            'created_at' => 'Created'
         );
         return $columns;
     }
@@ -136,7 +136,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
      */
     public function no_items()
     {
-        __('No pushes yet.', 'cf7-push-bullet');
+        _e('No pushes yet.', CF7_PUSH_BULLET_TEXT_DOMAIN);
     }
 
     /**
@@ -153,7 +153,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
         $order = (isset($_GET['order'])) ? sanitize_sql_orderby($_GET['order']) : 'DESC';
 
         $user_query = "SELECT 
-                        id, date, push_title, push_type, push_body, success
+                        id, created_at, push_title, push_type, push_body, success
                       FROM 
                         $wpdb_table 
                       ORDER BY $orderby $order";
@@ -161,7 +161,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
         // query output_type will be an associative array with ARRAY_A.
         $query_results = $wpdb->get_results($user_query, ARRAY_A);
 
-        if (!$query_results) {
+        if (!$query_results || !count($query_results)) {
             $this->items = false;
             return false;
         }
@@ -170,7 +170,6 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
         $this->items = $query_results;
 
         return true;
-
     }
 
     /**
@@ -185,8 +184,8 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
 //            'push_title' => array('push_title', false),
 //            'push_type' => array('push_type', false),
             'push_body' => array('push_body', false),
-            'date' => array('date', false),
-//            'push_result' => array('push_result', false),
+            'created_at' => array('created_at', false),
+//            'push_reply' => array('push_reply', false),
             'success' => array('success', false),
         );
         return $sortable_columns;
@@ -203,14 +202,15 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
     function column_default($item, $column_name)
     {
         switch ($column_name) {
-//            case 'id':
+            case 'created_at':
+                return date_i18n(get_option('date_format') . ', ' . get_option('time_format'), wp_exif_date2ts($item[$column_name]));
+            case 'success':
+                return $item[$column_name] ? 'OK' : '<span style="color: #a00;">Push Failed</span>';
+            //            case 'id':
             case 'push_title':
             case 'push_type':
             case 'push_body':
-            case 'date':
-                return date_i18n(get_option('date_format'), wp_exif_date2ts($item[$column_name]));
-            case 'success':
-                return $item[$column_name] ? 'OK' : '<span style="color: #a00;">Push Failed</span>';
+                return $item[$column_name];
             default:
                 return '';
 //                return print_r($item,true); //Show the whole array for troubleshooting purposes

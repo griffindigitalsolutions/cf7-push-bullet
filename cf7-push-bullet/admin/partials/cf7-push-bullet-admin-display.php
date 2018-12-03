@@ -7,9 +7,9 @@
 <?php
 $menu = '';
 $menus = array(
-    'history' => __('History', 'cf7-push-bullet'),
-    'settings' => __('Settings', 'cf7-push-bullet'),
-    'about' => __('About', 'cf7-push-bullet'));
+    'history' => __('History', CF7_PUSH_BULLET_TEXT_DOMAIN),
+    'settings' => __('Settings', CF7_PUSH_BULLET_TEXT_DOMAIN),
+    'about' => __('About', CF7_PUSH_BULLET_TEXT_DOMAIN));
 $link = menu_page_url($this->page_slug, false);
 $default_tab = 'history'; // what is the default menu
 

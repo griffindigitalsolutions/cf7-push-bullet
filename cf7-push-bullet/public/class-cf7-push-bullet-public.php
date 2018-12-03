@@ -51,6 +51,7 @@ class Cf7_Push_Bullet_Public {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
+		$this->load_classes();
 
 	}
 
@@ -99,5 +100,13 @@ class Cf7_Push_Bullet_Public {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/cf7-push-bullet-public.js', array( 'jquery' ), $this->version, false );
 
 	}
+
+    /**
+     * Load Classes that are used in the front end
+     * @since    1.0.0
+     */
+	public function load_classes() {
+        require_once(CF7_PUSH_BULLET_PLUGIN_DIR . '/includes/class-cf7-push-bullet-api.php');
+    }
 
 }

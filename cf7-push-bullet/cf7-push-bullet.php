@@ -38,6 +38,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'CF7_PUSH_BULLET_PLUGIN_VERSION', '1.0.0' );
 define( 'CF7_PUSH_BULLET_PLUGIN_REQUIRED_WP_VERSION', '4.8' );
 define( 'CF7_PUSH_BULLET_PLUGIN', __FILE__ );
+define( 'CF7_PUSH_BULLET_TEXT_DOMAIN', 'cf7-push-bullet' );
 define( 'CF7_PUSH_BULLET_PLUGIN_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 /**
  * The code that runs during plugin activation.

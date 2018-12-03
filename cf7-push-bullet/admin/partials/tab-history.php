@@ -8,12 +8,17 @@ if (!class_exists('Cf7_Push_Bullet_List_Table')) {
     <?php $list_table = new Cf7_Push_Bullet_List_Table();
     $list_table->prepare_items();
     ?>
-</div>
-<div class="wrap">
-    <h2><?php __('WP List Table Demo', 'cf7-push-bullet'); ?></h2>
-    <div id="">
-        <form id="" method="get">
-            <?php $list_table->display(); ?>
-        </form>
+    <div class="wrap">
+        <h2><?php _e('Push Bullet Requests', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></h2>
+        <div id="">
+                <form id="" method="get">
+                    <?php $list_table->display(); ?>
+                </form>
+            <?php if ($list_table->has_items()): ?>
+            <?php else: ?>
+                <div class=""><p><?php echo $list_table->no_items(); ?></p></div>
+            <?php endif; ?>
+        </div>
     </div>
 </div>
+
