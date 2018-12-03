@@ -12,10 +12,10 @@
 
                 <tbody>
                 <tr>
-                    <th scope="row"><label for="api-key">Push Bullet API Key</label></th>
+                    <th scope="row"><label for="cf7-push-bullet-settings-api-key">Push Bullet API Key</label></th>
                     <td>
-                        <input name="api-key" type="text" id=""
-                               value="<?php echo esc_attr( get_option('api-key') ); ?>"
+                        <input name="cf7-push-bullet-settings-api-key" type="text" id=""
+                               value="<?php echo esc_attr( get_option('cf7-push-bullet-settings-api-key') ); ?>"
                                placeholder="Your Push Bullet API Key"
                                class="regular-text"/>
                     </td>

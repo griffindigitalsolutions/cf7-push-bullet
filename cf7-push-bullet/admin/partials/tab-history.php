@@ -10,14 +10,15 @@ if (!class_exists('Cf7_Push_Bullet_List_Table')) {
     ?>
     <div class="wrap">
         <h2><?php _e('Push Bullet Requests', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></h2>
-        <div id="">
-                <form id="" method="get">
-                    <?php $list_table->display(); ?>
-                </form>
-            <?php if ($list_table->has_items()): ?>
-            <?php else: ?>
-                <div class=""><p><?php echo $list_table->no_items(); ?></p></div>
-            <?php endif; ?>
+        <div>
+            <form method="get" action="?page=cf7-push-bullet-options">
+                <input type="hidden" name="page" value="cf7-push-bullet-options">
+                <?php $list_table->display(); ?>
+                <?php if ($list_table->has_items()): ?>
+                <?php else: ?>
+                    <div class=""><p><?php echo $list_table->no_items(); ?></p></div>
+                <?php endif; ?>
+            </form>
         </div>
     </div>
 </div>

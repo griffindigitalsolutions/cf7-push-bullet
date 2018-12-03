@@ -90,7 +90,7 @@ class Cf7_Push_Bullet_Admin
      */
     public function register_settings()
     {
-        register_setting('cf7-push-bullet-settings', 'api-key', array('sanitize_callback' => array('Cf7_Push_Bullet_Options', 'pre_save')));
+        register_setting('cf7-push-bullet-settings', 'cf7-push-bullet-settings-api-key', array('sanitize_callback' => array('Cf7_Push_Bullet_Options', 'pre_save')));
     }
 
     public function test()

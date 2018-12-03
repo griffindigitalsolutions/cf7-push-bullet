@@ -11,8 +11,8 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
     function __construct()
     {
         parent::__construct(array(
-            'singular' => 'post',
-            'plural' => 'posts',
+            'singular' => 'item',
+            'plural' => 'items',
             'ajax' => false,
         ));
     }
@@ -67,6 +67,11 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
         $hidden = array();
         $sortable = $this->get_sortable_columns();
         $this->_column_headers = array($columns, $hidden, $sortable);
+
+        // handle any bulk processing before loading
+        $this->process_bulk_action();
+
+
         // get the data. Sorting and ordering is done there
         $this->prepare_table_data(); // it will set $this->items
 
@@ -197,7 +202,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
      * @param object $item
      * @param string $column_name
      * @return string
-     * @ since 1.0.0
+     * @since 1.0.0
      */
     function column_default($item, $column_name)
     {
@@ -215,6 +220,75 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
                 return '';
 //                return print_r($item,true); //Show the whole array for troubleshooting purposes
         }
+    }
+
+    /**
+     * Add bulk actions
+     * @return array
+     * @since 1.0.0
+     */
+    function get_bulk_actions()
+    {
+        $actions = array(
+            'delete' => 'Delete'
+        );
+        return $actions;
+    }
+
+    /**
+     * Process bulk actions. At the moment it's only delete
+     * @return void
+     * @since 1.0.0
+     */
+    function process_bulk_action()
+    {
+        global $wpdb;
+        $wpdb_table = $wpdb->prefix . 'cf7_push_bullet';
+
+        // Detect when a bulk action is being triggered...
+        if ('delete' === $this->current_action()) {
+            // Get items to delete
+            if (isset($_GET['item']) && !empty($_GET['item'])) {
+                $to_delete = $_GET['item'];
+
+                // if bulk action, loop and clean
+                if (is_array($to_delete) && count($to_delete) > 0) {
+                    foreach ($to_delete as $k => $v) {
+                        // cast all to integer
+                        $to_delete[$k] = (int)$v;
+                    }
+                    $to_delete = implode($to_delete, ',');
+                }
+
+                // we'll run a delete query
+                $sql = "DELETE  FROM $wpdb_table WHERE id IN($to_delete);";
+                $wpdb->query($sql);
+            }
+        }
+        return;
+    }
+
+    /**
+     * Get the current action selected from the bulk actions dropdown.
+     * @since 1.0.0
+     *
+     * @return string|false The action name or False if no action was selected
+     */
+    public function current_action()
+    {
+        if (isset($_REQUEST['filter_action']) && !empty($_REQUEST['filter_action'])) {
+            return false;
+        }
+
+        if (isset($_REQUEST['action']) && -1 != $_REQUEST['action']) {
+            return $_REQUEST['action'];
+        }
+
+        if (isset($_REQUEST['action2']) && -1 != $_REQUEST['action2']) {
+            return $_REQUEST['action2'];
+        }
+
+        return false;
     }
 
 }
