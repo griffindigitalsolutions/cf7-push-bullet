@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="">
+    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="Add uninstaller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/uninstall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cf7-push-bullet/uninstall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="360">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -57,7 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new Cf7_Push_Bullet_Admin</find>
       <find>cf7_push_bullet_db_version</find>
       <find>$plugin_name</find>
       <find>register_setting</find>
@@ -87,6 +94,7 @@
       <find>test</find>
       <find>-&gt;prepare</find>
       <find>api-key</find>
+      <find>DO THE DEACTIVATION</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,7 +118,6 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/public/class-cf7-push-bullet-public.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" />
-        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-loader.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-options.php" />
@@ -123,6 +130,7 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/view-item.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/uninstall.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" />
       </list>
     </option>
   </component>
@@ -220,7 +228,7 @@
       <workItem from="1543517379445" duration="1614000" />
       <workItem from="1543567403240" duration="15444000" />
       <workItem from="1543821702074" duration="27493000" />
-      <workItem from="1543909428398" duration="1487000" />
+      <workItem from="1543909428398" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="You can now view submissions in list and in detail view.">
       <created>1543579116984</created>
@@ -250,17 +258,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543860770092</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add uninstaller">
+      <created>1543911523687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543911523687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76935000" />
+    <option name="totallyTimeSpent" value="77112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1370" y="0" width="1389" height="1118" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24529722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24529722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,7 +288,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.113187954" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.113187954" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -292,7 +307,8 @@
     <MESSAGE value="Bulk delete works.&#10;Single delete works." />
     <MESSAGE value="Ready to add instructions and start detailed testing" />
     <MESSAGE value="Remove comment and unnecessary function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove comment and unnecessary function" />
+    <MESSAGE value="Add uninstaller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add uninstaller" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>H:\Devilbox\data\www\cf7pushbullet\wordpress.git</wordpressPath>
@@ -500,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../wp-includes/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -660,8 +669,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cf7-push-bullet/uninstall.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="360">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
