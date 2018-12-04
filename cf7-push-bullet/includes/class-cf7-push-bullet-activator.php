@@ -69,7 +69,7 @@ class Cf7_Push_Bullet_Activator
 
         /* Adding an Upgrade Function */
         // Not needed in this version
-        // TODO: move to separate function
+        // TODO v1.1: move to separate function
 //        global $wpdb;
 //        $installed_ver = get_option("cf7_push_bullet_db_version");
 //        if ($installed_ver != $cf7_push_bullet_db_version) {

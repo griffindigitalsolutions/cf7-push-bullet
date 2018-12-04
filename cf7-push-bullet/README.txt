@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: cristianrat
-Donate link: https://griffin.digital/plugins/contact-form-7-push-bullet-integration
+Donate link: https://griffin.digital/plugin-contact-form-7-push-bullet-integration
 Tags: Contact Form 7, CF7, PushBullet, push bullet, contact form 7 push bullet, cf7 pushbullet, cf7 push bullet
 Requires at least: 3.0.1
 Tested up to: 5.1
@@ -50,11 +50,15 @@ You can also use the contact form to let us know of bugs or any other issues.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. History view of all submissions captured from Contact Form 7
+2. Setting view where you add your API Key
+3. API Key was added and confirmed to be correct
+4. API Key was tested and invalidated. It is not saved.
+5. Form getting filled in
+6. PushBullet notification received on Android App, after form was submitted
+7. The same notification was received at the same time on browser extension and visible in webpage (pushbullet.com)
+
+
 
 == Changelog ==
 

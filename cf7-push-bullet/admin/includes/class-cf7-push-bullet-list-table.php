@@ -1,4 +1,7 @@
 <?php
+// Our implementation of the WP_List_table
+// Allows list display in standard WP format, plus bulk actions.
+
 if (!class_exists('WP_List_Table')) {
     require_once(ABSPATH . 'wp-admin/includes/class-wp-list-table.php');
 }
@@ -6,7 +9,7 @@ if (!class_exists('WP_List_Table')) {
 class Cf7_Push_Bullet_List_Table extends WP_List_Table
 {
 
-    public $items_per_page = 10; // can be changed later
+    public $items_per_page = 10; // TODO v1.1: Use screen options. Make this a changeable setting.
 
     function __construct()
     {
@@ -31,7 +34,8 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
         );
 
         //Return the title contents
-        return sprintf('%1$s <span style="color: silver">(id:%2$s)</span>%3$s',
+        return sprintf(
+            '%1$s <span style="color: silver">(id:%2$s)</span>%3$s',
             /*$1%s*/
             $item['push_title'],
             /*$2%s*/
@@ -58,6 +62,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
 
     /**
      * Prepare data (this function calls another function which runs the actual query
+     * @return void
      * @since 1.0.0
      */
     function prepare_items()
@@ -110,8 +115,8 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
          * REQUIRED. We also have to register our pagination options & calculations.
          */
         $this->set_pagination_args(array(
-            'total_items' => $total_items,                                      // Calculate  total number
-            'per_page' => $this->items_per_page,                                // How many items per page
+            'total_items' => $total_items,                                 // Calculate  total number
+            'per_page' => $this->items_per_page,                           // How many items per page
             'total_pages' => ceil($total_items / $this->items_per_page)    // Total pages
         ));
     }

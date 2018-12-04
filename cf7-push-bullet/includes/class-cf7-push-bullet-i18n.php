@@ -33,7 +33,7 @@ class Cf7_Push_Bullet_i18n {
 	 * @since    1.0.0
 	 */
 	public function load_plugin_textdomain() {
-
+		// TODO v2: change string to CONSTANT
 		load_plugin_textdomain(
 			'cf7-push-bullet',
 			false,
