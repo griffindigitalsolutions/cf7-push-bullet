@@ -1,21 +1,14 @@
 <?php
 
 /**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
- *
  * @link              https://griffin.digital
  * @since             1.0.0
  * @package           Cf7_Push_Bullet
  *
  * @wordpress-plugin
- * Plugin Name:       Contact Form 7 PushBullet
- * Plugin URI:        https://griffin.digital/plugins/cf7-push-bullet
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin Name:       Contact Form 7 - PushBullet integration
+ * Plugin URI:        https://griffin.digital/plugins/contact-form-7-push-bullet-integration
+ * Description:       Allows form submissions to be sent to a user's device(s) via the PushBullet API (https://www.pushbullet.com)
  * Version:           1.0.0
  * Author:            Cristian Rat
  * Author URI:        https://griffin.digital
@@ -31,11 +24,10 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Currently plugin version.
+ * Current plugin version.
  * Start at version 1.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
  */
-define( 'CF7_PUSH_BULLET_PLUGIN_VERSION', '1.0.0' );
+define( 'CF7_PUSH_BULLET_PLUGIN_VERSION', '1.0.0' ); // Dec 2018
 define( 'CF7_PUSH_BULLET_PLUGIN_REQUIRED_WP_VERSION', '4.8' );
 define( 'CF7_PUSH_BULLET_PLUGIN', __FILE__ );
 define( 'CF7_PUSH_BULLET_TEXT_DOMAIN', 'cf7-push-bullet' );
@@ -68,7 +60,7 @@ register_deactivation_hook( __FILE__, 'deactivate_cf7_push_bullet' );
 require plugin_dir_path( __FILE__ ) . 'includes/class-cf7-push-bullet.php';
 
 /**
- * Begins execution of the plugin.
+ * Begin execution of the plugin.
  *
  * Since everything within the plugin is registered via hooks,
  * then kicking off the plugin from this point in the file does

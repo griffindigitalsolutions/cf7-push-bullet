@@ -197,7 +197,7 @@ class Cf7_Push_Bullet_Admin
 
     /**
      * Return plugin root location
-     *
+     * TODO V1.1: replace this function with CONSTANT
      * @since 1.0.0
      */
     public static function get_admin_path()

@@ -1,7 +1,8 @@
 <?php
 /**
  * View and manage settings
- * and view and manage the request history
+ * AND
+ * View and manage the request history
  */
 ?>
 <?php
@@ -24,7 +25,7 @@ if ($action) {
     }
 }
 
-// TODO: move this to plugin variable (plugin global setting)
+// TODO V1.1: move this to plugin variable (plugin global setting)
 foreach ($menus as $slug => $label) {
     $class = 'nav-tab'; // will get overwritten if active
     if (isset($_REQUEST['tab'])) {

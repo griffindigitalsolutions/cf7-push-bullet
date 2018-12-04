@@ -1,7 +1,6 @@
 <?php
 
-// On uninstalling plugin drop table
-// and remove the APIKEY from the options
+// On uninstall: drop table and remove the API key from options
 
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
