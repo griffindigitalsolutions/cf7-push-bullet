@@ -58,7 +58,7 @@ class Cf7_Push_Bullet_Activator
                     push_type tinytext NOT NULL,
                     push_body text NOT NULL,
                     push_reply text DEFAULT '' NOT NULL,
-                    success bool DEFAULT '' NOT NULL,
+                    success int(1) DEFAULT 0 NOT NULL,
                     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
                     PRIMARY KEY (id)
                 ) $charset_collate;";

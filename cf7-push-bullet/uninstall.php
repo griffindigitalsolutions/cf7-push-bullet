@@ -16,5 +16,5 @@ delete_option('cf7-push-bullet-settings-api-key');
 global $wpdb;
 $table_name = $wpdb->prefix . 'cf7_push_bullet';
 
-$query = $wpdb->prepare( 'DROP TABLE %S', $wpdb->esc_like( $table_name ) );
+$wpdb->query(sprintf('DROP TABLE IF EXISTS %s', $table_name));
 
