@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="Further polishing before release.">
+    <list default="true" id="57f6a296-07fd-4a14-b3e7-77e112c0bea6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cf7-push-bullet/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/css/cf7-push-bullet-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/css/cf7-push-bullet-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/includes/class-cf7-push-bullet-list-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/js/cf7-push-bullet-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/js/cf7-push-bullet-admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-i18n.php" beforeDir="false" afterPath="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-i18n.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +26,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php">
+        <entry file="file://$PROJECT_DIR$/cf7-push-bullet/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+            <state relative-caret-position="100">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -53,7 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wpreq</find>
       <find>wp_remote_request</find>
       <find>exit</find>
       <find>action</find>
@@ -83,6 +76,7 @@
       <find>bullet</find>
       <find>todo v1.1</find>
       <find>you api</find>
+      <find>/plugins/contact-form-7</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +105,6 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-deactivator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet-activator.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/uninstall.php" />
-        <option value="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/public/partials/cf7-push-bullet-public-display.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/public/js/cf7-push-bullet-public.js" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/public/css/cf7-push-bullet-public.css" />
@@ -121,46 +114,23 @@
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/cf7-push-bullet-admin-display.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/class-cf7-push-bullet-admin.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-settings.php" />
-        <option value="$PROJECT_DIR$/cf7-push-bullet/README.txt" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php" />
         <option value="$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php" />
+        <option value="$PROJECT_DIR$/cf7-push-bullet/README.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1710" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
     <option name="width" value="1739" />
-    <option name="height" value="1399" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plugins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress.git" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -196,7 +166,9 @@
       <workItem from="1543517379445" duration="1614000" />
       <workItem from="1543567403240" duration="15444000" />
       <workItem from="1543821702074" duration="27493000" />
-      <workItem from="1543909428398" duration="11657000" />
+      <workItem from="1543909428398" duration="12740000" />
+      <workItem from="1543944663294" duration="41000" />
+      <workItem from="1543995113897" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="You can now view submissions in list and in detail view.">
       <created>1543579116984</created>
@@ -254,14 +226,42 @@
       <option name="project" value="LOCAL" />
       <updated>1543921634340</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Further polishing before release.&#10;Add screenshots and instructions.&#10;Add to readme and about tab.">
+      <created>1543925291732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543925291732</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change URL">
+      <created>1543925629073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543925629073</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add github link">
+      <created>1543925681872</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543925681872</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update tested from and to version numbers">
+      <created>1543995331208</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543995331208</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87105000" />
+    <option name="totallyTimeSpent" value="88869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2766" height="1126" extended-state="6" />
+    <frame x="-8" y="0" width="1391" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24529722" />
@@ -277,9 +277,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.11225541" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.226943" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3285273" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285273" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,7 +301,12 @@
     <MESSAGE value="Uninstall drops table.&#10;Update initial table creation" />
     <MESSAGE value="Add comments.&#10;Add readme&#10;Add instructions&#10;Comment out things which are not required (include css, js etc.)" />
     <MESSAGE value="Further polishing before release." />
-    <option name="LAST_COMMIT_MESSAGE" value="Further polishing before release." />
+    <MESSAGE value="Further polishing before release.&#10;Add screenshots and instructions.&#10;Add to readme and about tab." />
+    <MESSAGE value="Change URL" />
+    <MESSAGE value="Add github Link" />
+    <MESSAGE value="Add github link" />
+    <MESSAGE value="Update tested from and to version numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update tested from and to version numbers" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>H:\Devilbox\data\www\cf7pushbullet\wordpress.git</wordpressPath>
@@ -519,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cf7-push-bullet/includes/class-cf7-push-bullet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1820">
@@ -634,17 +632,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/README.txt">
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/cf7-push-bullet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="71" lean-forward="true" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="140">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cf7-push-bullet/admin/partials/tab-about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        <state relative-caret-position="120">
+          <caret line="6" column="86" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf7-push-bullet/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
