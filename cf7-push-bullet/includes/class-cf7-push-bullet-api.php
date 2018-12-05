@@ -2,7 +2,7 @@
 
 /**
  * Class Cf7_Push_Bullet_API
- * Makes the requests to the Push Bullet API
+ * Makes the requests to the Pushbullet API
  * Test and actual request. Saves to database as well
  */
 class Cf7_Push_Bullet_API
@@ -162,7 +162,7 @@ class Cf7_Push_Bullet_API
         return $result;
     }
 
-    /** Make push bullet request
+    /** Make Pushbullet request
      * @param $title
      * @param $body
      * @param $token

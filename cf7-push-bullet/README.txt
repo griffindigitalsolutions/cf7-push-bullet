@@ -23,7 +23,7 @@ Without it, all requests will fail, but they will be saved to the database.
 
 1. Upload `cf7-push-bullet.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Save your PushBullet API key in the settings tab (Side menu : Contact > Push Bullet > Settings)
+1. Save your PushBullet API key in the settings tab (Side menu : Contact > Pushbullet > Settings)
 
 == Frequently Asked Questions ==
 

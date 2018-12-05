@@ -154,7 +154,7 @@ class Cf7_Push_Bullet_Admin
     public function add_cf7_panel($panels)
     {
         $panels['cf7-push-bullet-panel'] = array(
-            'title' => __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
+            'title' => __('Pushbullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
             'callback' => array($this, 'add_panel')
         );
         return $panels;
@@ -169,8 +169,8 @@ class Cf7_Push_Bullet_Admin
     public function add_cf7_submenu()
     {
         add_submenu_page('wpcf7',
-            __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
-            __('Push Bullet', CF7_PUSH_BULLET_TEXT_DOMAIN), 'manage_options',
+            __('Pushbullet', CF7_PUSH_BULLET_TEXT_DOMAIN),
+            __('Pushbullet', CF7_PUSH_BULLET_TEXT_DOMAIN), 'manage_options',
             $this->page_slug, array($this, 'admin_page'));
     }
 

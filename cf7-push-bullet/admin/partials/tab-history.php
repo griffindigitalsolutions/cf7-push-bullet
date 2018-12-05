@@ -9,7 +9,7 @@ if (!class_exists('Cf7_Push_Bullet_List_Table')) {
     $list_table->prepare_items();
     ?>
     <div class="wrap">
-        <h2><?php _e('Push Bullet Requests', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></h2>
+        <h2><?php _e('Pushbullet Requests', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></h2>
         <div>
             <form method="get" action="?page=cf7-push-bullet-options">
                 <input type="hidden" name="page" value="cf7-push-bullet-options">
