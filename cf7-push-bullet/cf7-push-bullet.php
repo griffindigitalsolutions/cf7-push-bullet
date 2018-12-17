@@ -27,8 +27,8 @@ if ( ! defined( 'WPINC' ) ) {
  * Current plugin version.
  * Start at version 1.0.0 and use SemVer - https://semver.org
  */
-define( 'CF7_PUSH_BULLET_PLUGIN_VERSION', '1.0.0' ); // Dec 2018
-define( 'CF7_PUSH_BULLET_PLUGIN_REQUIRED_WP_VERSION', '4.8' );
+define( 'CF7_PUSH_BULLET_PLUGIN_VERSION', '1.1.0' ); // Dec 2018
+define( 'CF7_PUSH_BULLET_PLUGIN_REQUIRED_WP_VERSION', '4.0' );
 define( 'CF7_PUSH_BULLET_PLUGIN', __FILE__ );
 define( 'CF7_PUSH_BULLET_TEXT_DOMAIN', 'cf7-push-bullet' );
 define( 'CF7_PUSH_BULLET_PLUGIN_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );

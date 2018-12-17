@@ -5,6 +5,10 @@ if (!class_exists('Cf7_Push_Bullet_List_Table')) {
 }
 ?>
 <div class="ui-tabs-panel">
+    <div class="ui-tabs-panel">
+        <h2><?php _e('History', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></h2>
+        <?php settings_errors(); ?>
+    </div>
     <?php $list_table = new Cf7_Push_Bullet_List_Table();
     $list_table->prepare_items();
     ?>

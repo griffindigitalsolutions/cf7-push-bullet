@@ -69,6 +69,12 @@ class Cf7_Push_Bullet_Admin
         // add options to options table
         add_action('admin_init', array($this, 'register_settings'));
 
+        //TODO: look into validating this once a day? a fortnight?
+        // and check settings are valid. Show error message if not
+//        if (isset($_GET['page']) && $_GET['page'] == 'cf7-push-bullet-options') {
+//            add_action('admin_init', array($this, 'validate_settings'), 99);
+//        }
+
         // load required classes
         $this->load_classes();
     }
@@ -91,6 +97,30 @@ class Cf7_Push_Bullet_Admin
     public function register_settings()
     {
         register_setting('cf7-push-bullet-settings', 'cf7-push-bullet-settings-api-key', array('sanitize_callback' => array('Cf7_Push_Bullet_Options', 'pre_save')));
+    }
+
+    /**
+     * Validate settings. If invalid, show message
+     * Only run on the History tab
+     *
+     * @since    1.1.0
+     */
+    public function validate_settings()
+    {
+        $message = __('Your Pushbullet API key is invalid or not set.', CF7_PUSH_BULLET_TEXT_DOMAIN);
+        if (!get_option('cf7-push-bullet-settings-api-key')) {
+            add_settings_error('cf7_push_bullet_option_notice', '', $message, 'error');
+        }
+        // It's too much to run this on every page load
+        // TODO: run it once a day via cron. Notify user in case of isue
+//        if (get_option('cf7-push-bullet-settings-api-key')) {
+//            $test_result = Cf7_Push_Bullet_API::make_test_request(get_option('cf7-push-bullet-settings-api-key'));
+//            if ($test_result['result'] === false) {
+//                add_settings_error('cf7_push_bullet_option_notice', '', $message, 'error');
+//            }
+//        } elseif (!get_option('cf7-push-bullet-settings-api-key')) {
+//            add_settings_error('cf7_push_bullet_option_notice', '', $message, 'error');
+//        }
     }
 
     public function test()
