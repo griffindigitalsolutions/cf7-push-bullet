@@ -27,9 +27,7 @@ class Cf7_Push_Bullet_Activator
     public static $db_version = '1.0.0';
 
     /**
-     * Short Description. (use period)
-     *
-     * Long Description.
+     * Run on plugin activation
      *
      * @since    1.0.0
      */
@@ -37,6 +35,9 @@ class Cf7_Push_Bullet_Activator
     {
         // prepare tables
         self::prepare_database_tables();
+
+        // add default option. Required so on first API key save you don't see the warning / success message twice
+        add_option('cf7-push-bullet-settings-api-key', '');
     }
 
     /*

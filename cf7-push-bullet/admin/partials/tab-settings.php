@@ -9,7 +9,6 @@
             <?php do_settings_sections('cf7-push-bullet-settings'); ?>
             <p><?php _e('Your API key is needed.', CF7_PUSH_BULLET_TEXT_DOMAIN); ?></p>
             <table class="form-table">
-
                 <tbody>
                 <tr>
                     <th scope="row"><label for="cf7-push-bullet-settings-api-key">Pushbullet API Key</label></th>
