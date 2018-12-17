@@ -213,7 +213,7 @@ class Cf7_Push_Bullet_List_Table extends WP_List_Table
     {
         switch ($column_name) {
             case 'created_at':
-                return date_i18n(get_option('date_format') . ', ' . get_option('time_format'), wp_exif_date2ts($item[$column_name]));
+                return mysql2date( __( get_option('date_format') . ', ' . get_option('time_format'), CF7_PUSH_BULLET_TEXT_DOMAIN ), $item[$column_name], true );
             case 'success':
                 return $item[$column_name] ? 'OK' : '<span style="color: #a00;">Push Failed</span>';
             //            case 'id':
