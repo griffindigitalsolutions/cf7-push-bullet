@@ -6,9 +6,9 @@
  * @package           Cf7_Push_Bullet
  *
  * @wordpress-plugin
- * Plugin Name:       Contact Form 7 - PushBullet integration
+ * Plugin Name:       Contact Form 7 - Pushbullet integration
  * Plugin URI:        https://griffin.digital/plugin-contact-form-7-push-bullet-integration
- * Description:       Allows form submissions to be sent to a user's device(s) via the PushBullet API (https://www.pushbullet.com)
+ * Description:       Allows form submissions to be sent to a user's device(s) via the Pushbullet API (https://www.pushbullet.com)
  * Version:           1.0.0
  * Author:            Cristian Rat
  * Author URI:        https://griffin.digital

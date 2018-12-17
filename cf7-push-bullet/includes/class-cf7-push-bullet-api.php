@@ -19,8 +19,8 @@ class Cf7_Push_Bullet_API
         // We could skip API call, just save to DB (validate key first)
     }
 
-    /** Send PushBullet (via another function) and save to database
-     * TODO in 1.1: move DB functionality to DB class
+    /** Send Pushbullet (via another function) and save to database
+     * TODO in 1.2: move DB functionality to DB class
      * @param $form
      * @return void
      * @since 1.0.0

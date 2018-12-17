@@ -1,33 +1,33 @@
 === Plugin Name ===
 Contributors: cristianrat
 Donate link: https://griffin.digital/plugin-contact-form-7-push-bullet-integration
-Tags: Contact Form 7, CF7, PushBullet, push bullet, contact form 7 push bullet, cf7 pushbullet, cf7 push bullet
+Tags: Contact Form 7, CF7, Pushbullet, push bullet, contact form 7 push bullet, cf7 pushbullet, cf7 push bullet
 Requires at least: 4.0
 Tested up to: 4.9
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allows form submissions to be sent to a user's device(s) via the PushBullet API (https://www.pushbullet.com)
+Allows form submissions to be sent to a user's device(s) via the Pushbullet API (https://www.pushbullet.com)
 
 == Description ==
 
-Allows form submissions to be sent to a user's device via the PushBullet API (https://www.pushbullet.com)
+Allows form submissions to be sent to a user's device via the Pushbullet API (https://www.pushbullet.com)
 All form submissions are saved to the database (whether successful or not) giving you peace of mind that your submissions
-won't be lost if either emails or PushBullet API are not working.
+won't be lost if either emails or Pushbullet API are not working.
 
-After installing and activating the plugin, you need to get your PushBullet API key and save it.
+After installing and activating the plugin, you need to get your Pushbullet API key and save it.
 Without it, all requests will fail, but they will be saved to the database.
 
 == Installation ==
 
 1. Upload `cf7-push-bullet.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Save your PushBullet API key in the settings tab (Side menu : Contact > Pushbullet > Settings)
+1. Save your Pushbullet API key in the settings tab (Side menu : Contact > Pushbullet > Settings)
 
 == Frequently Asked Questions ==
 
-= Do I need a PushBullet account? =
+= Do I need a Pushbullet account? =
 
 Yes.
 
@@ -55,7 +55,7 @@ You can also use the contact form to let us know of bugs or any other issues.
 3. API Key was added and confirmed to be correct
 4. API Key was tested and invalidated. It is not saved.
 5. Form getting filled in
-6. PushBullet notification received on Android App, after form was submitted
+6. Pushbullet notification received on Android App, after form was submitted
 7. The same notification was received at the same time on browser extension and visible in webpage (pushbullet.com)
 
 
