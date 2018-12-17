@@ -39,7 +39,7 @@ class Cf7_Push_Bullet_API
             if ($submission) {
                 $form_id = $form->id();
                 $data = array();
-                $data['title'] = 'New submission for ' . $form->title();
+                $data['title'] = sprintf(__('New submission: form %s on %s', CF7_PUSH_BULLET_TEXT_DOMAIN), $form->title(), get_site_url());
                 $data['id'] = $form->id();
                 $data['posted_data'] = $submission->get_posted_data();
 //                $data['uploaded_files'] = $submission->uploaded_files(); // we don't support files yet
