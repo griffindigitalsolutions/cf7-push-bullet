@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Contact Form 7 – Pushbullet integration ===
 Contributors: cristianrat
 Donate link: https://griffin.digital/plugin-contact-form-7-push-bullet-integration
 Tags: Contact Form 7, CF7, Pushbullet, push bullet, contact form 7 push bullet, cf7 pushbullet, cf7 push bullet
