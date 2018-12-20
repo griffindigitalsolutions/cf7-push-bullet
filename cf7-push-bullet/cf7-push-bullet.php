@@ -9,7 +9,7 @@
  * Plugin Name:       Contact Form 7 - Pushbullet integration
  * Plugin URI:        https://griffin.digital/plugin-contact-form-7-push-bullet-integration
  * Description:       Allows form submissions to be sent to a user's device(s) via the Pushbullet API (https://www.pushbullet.com)
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Cristian Rat
  * Author URI:        https://griffin.digital
  * License:           GPL-2.0+
