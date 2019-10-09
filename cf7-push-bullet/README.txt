@@ -3,8 +3,8 @@ Contributors: cristianrat
 Donate link: https://griffin.digital/plugin-contact-form-7-push-bullet-integration
 Tags: Contact Form 7, CF7, Pushbullet, push bullet, contact form 7 push bullet, cf7 pushbullet, cf7 push bullet
 Requires at least: 4.0
-Tested up to: 5.0
-Stable tag: 1.1.0
+Tested up to: 5.2.3
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
